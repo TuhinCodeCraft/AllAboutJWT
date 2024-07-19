@@ -13,7 +13,7 @@ If you are stuck with this topic you can refer my notes about JWT in the `Notes.
 - Authentication vs Authorization
 - How do you securely store a JWT on the client-side
 - Common usecases of JWT
-- How can you ivalidate JWT
+- How can you invalidate JWT
 - JWT vs SESSIONS
 
 ## Contributing

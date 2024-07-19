@@ -78,7 +78,7 @@ __But the best way to secure it by reducing the span__
 - Authorization
 - Information Exchange (payload - server to server also)
 
-## How can you ivalidate JWT:
+## How can you invalidate JWT:
 - After implementing each and every JWT, you got the expiry with that, Now its upto you how many times you want to excess it or reduce it
 - It has another mechanism which is known as `refresh token`
 - A refresh token in JWT (JSON Web Token) is a special token used to obtain a new access token once the current access token expires. Unlike access tokens, which have short lifespans for security reasons, refresh tokens have longer lifespans and can be stored securely. When the access token expires, the refresh token is sent to the authentication server to request a new access token, maintaining user sessions without requiring them to log in repeatedly. This mechanism enhances both security and user experience in token-based authentication systems.
