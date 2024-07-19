@@ -20,4 +20,4 @@ If you are stuck with this topic you can refer my notes about JWT in the `Notes.
 If you would like to contribute to this repository, feel free to submit a pull request. With adding more informations and correct if there is any other mistakes.
 
 ## Acknowledgements
-This repositary is inspired from the `ChaiaurCode` youtube channel. Besides reading the note your can prefer the video from [here](https://youtu.be/xrj3zzaqODw?si=o0QUs8Sj0pJ6UfiM) and for more exploration you can refer the official JWT website from [here](jwt.io)
+This repositary is inspired from the `ChaiaurCode` youtube channel. Besides reading the note your can prefer the video from [here](https://youtu.be/xrj3zzaqODw?si=o0QUs8Sj0pJ6UfiM) and for more exploration you can refer the official JWT website from [here](https://jwt.io/introduction)
