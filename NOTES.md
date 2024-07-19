@@ -13,7 +13,7 @@ __Cryptography__ is a very good security mechanism which generate two keys.
 ## What is JWT?
 - JWT stands for JSON Web Token. 
 - It is an encrypted token which is a random collection of letters and numbers. 
--It is secure key or communication key between two resources. 
+- It is secure key or communication key between two resources. 
 - The main function of JWT is to collect data, then encrypt it and decides on the server who can decrypt the collected data.
 
 ## Structure of a JWT:
