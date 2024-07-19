@@ -17,9 +17,12 @@ __Cryptography__ is a very good security mechanism which generate ywo keys.
 - The main function of JWT is to collect data, then encrypt it and decides on the server who can decrypt the collected data.
 
 ## Structure of a JWT:
-- Ex: <span style="color: red">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>.
+- Ex: 
+```
+<span style="color: red">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9</span>.
 <span style="color: purple">eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ</span>.
 <span style="color: skyblue">SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c</span>
+```
 
 - It contains three parts which are separated by the dots.
 - 1. First part which is the red string, which determines that which algorithm it's using
