@@ -66,9 +66,9 @@ EX: if you are a user you are allowed to access the user dashboard, not the admi
 
 ## How do you securely store a JWT on the client-side
 
-- It is a short lived token, so it is already secured, and if any boday can steal the jwt token the he/she can easily steal the cookies and sessions also.
+- It is a short lived token, so it is already secured, and if any body can steal the jwt token the he/she can easily steal the cookies and sessions also.
 - But it also have security protection mechanism:
-- __1. LocalStorage:__ you can save the tokens in your local storage but there is some attacks ocuured is javascript like `XSS(Cross Site Scripting)` attack by which javascript can access your local storage and the token will be taken.
+- __1. LocalStorage:__ you can save the tokens in your local storage but there is some attacks ocuured is javascript like `XSS(Cross Site Scripting)` error attack by which javascript can access your local storage and the token will be taken.
 - __2. Session Storage:__ you can save the tokens in your session storage also
 - __3. Cookies:__ you can save the tokens in your cookies, after you can on the flags like `httponly`, `secure`, then javascipt can not access the cookies
 __But the best way to secure it by reducing the span__
