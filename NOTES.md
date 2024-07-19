@@ -2,7 +2,7 @@
 
 ## Public and Private Cryptography:
 
-__Cryptography__ is a very good security mechanism which generate ywo keys.
+__Cryptography__ is a very good security mechanism which generate two keys.
 - __Public Key:__ we can share it with anyone as many as we want, how many data is encrypted by this public key can be decrypted only using my private key only. 
 - __Private Key:__ It is most secured key, which should not be shared
 
