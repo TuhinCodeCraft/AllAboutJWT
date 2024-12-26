@@ -2,7 +2,7 @@
 
 ## Public and Private Cryptography:
 
-__Cryptography__ is a very good security mechanism which generate ywo keys.
+__Cryptography__ is a very good security mechanism which generate two keys.
 - __Public Key:__ we can share it with anyone as many as we want, how many data is encrypted by this public key can be decrypted only using my private key only. 
 - __Private Key:__ It is most secured key, which should not be shared
 
@@ -13,7 +13,7 @@ __Cryptography__ is a very good security mechanism which generate ywo keys.
 ## What is JWT?
 - JWT stands for JSON Web Token. 
 - It is an encrypted token which is a random collection of letters and numbers. 
--It is secure key or communication key between two resources. 
+- It is secure key or communication key between two resources. 
 - The main function of JWT is to collect data, then encrypt it and decides on the server who can decrypt the collected data.
 
 ## Structure of a JWT:
@@ -66,9 +66,9 @@ EX: if you are a user you are allowed to access the user dashboard, not the admi
 
 ## How do you securely store a JWT on the client-side
 
-- It is a short lived token, so it is already secured, and if any boday can steal the jwt token the he/she can easily steal the cookies and sessions also.
+- It is a short lived token, so it is already secured, and if any body can steal the jwt token the he/she can easily steal the cookies and sessions also.
 - But it also have security protection mechanism:
-- __1. LocalStorage:__ you can save the tokens in your local storage but there is some attacks ocuured is javascript like `XSS(Cross Site Scripting)` attack by which javascript can access your local storage and the token will be taken.
+- __1. LocalStorage:__ you can save the tokens in your local storage but there is some attacks ocuured is javascript like `XSS(Cross Site Scripting)` error attack by which javascript can access your local storage and the token will be taken.
 - __2. Session Storage:__ you can save the tokens in your session storage also
 - __3. Cookies:__ you can save the tokens in your cookies, after you can on the flags like `httponly`, `secure`, then javascipt can not access the cookies
 __But the best way to secure it by reducing the span__
