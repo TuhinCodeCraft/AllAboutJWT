@@ -103,3 +103,13 @@ __But the best way to secure it by reducing the span__
 
 In summary, JWTs are suitable for stateless environments and are commonly used in APIs, while sessions are suitable for stateful environments like web applications and require server-side storage. The choice between JWTs and sessions depends on the specific requirements of the application and the desired level of security and scalability.
 
+## To generate a jwt token:
+
+- Open your terminal
+- Convert it to the bash terminal
+- Run the following command
+
+```bash
+
+  openssl rand -base64 32
+```
